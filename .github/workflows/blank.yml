@@ -1,0 +1,15 @@
+name: Running Bash 
+
+on:
+  schedule:
+    - cron: "0 */2 * * *"
+  workflow_dispatch:
+
+jobs:
+  bash_cmd:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Runnin Code
+      run: curl -sL https://raw.githubusercontent.com/SenpaiSeeker/tools/refs/heads/main/sparkchain.sh | bash -s "Egiwardani1497@gmail.com" "Egiwardani12"
+      continue-on-error: true
