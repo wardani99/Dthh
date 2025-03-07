@@ -1,4 +1,4 @@
-name: Running Bash 
+name: Running Bash speed 
 
 on:
   schedule:
