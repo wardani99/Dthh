@@ -11,7 +11,7 @@ jobs:
 
     strategy:
       matrix:
-        run_script: [1, 2, 3]
+        run_script: [1, 2, 3, 3]
 
     steps:
     - name: Runnin Code
