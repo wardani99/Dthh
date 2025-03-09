@@ -15,5 +15,5 @@ jobs:
 
     steps:
     - name: Runnin Code
-      run: curl -sL https://raw.githubusercontent.com/SenpaiSeeker/tools/refs/heads/main/despeed.sh | bash -s eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mzc5NTYyLCJlbWFpbCI6ImRpa2luMDMxMDE5OTlAZ21haWwuY29tIiwiaWF0IjoxNzQwODk2NDIwLCJleHAiOjE3NDE1MDEyMjB9.yRxV1wJov95ubXcXAG14ijFZsSLb5aRBOBjdkbcRP8A
+      run: curl -sL https://raw.githubusercontent.com/SenpaiSeeker/tools/refs/heads/main/despeed.sh | bash -s eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mzc5NTYyLCJlbWFpbCI6ImRpa2luMDMxMDE5OTlAZ21haWwuY29tIiwiaWF0IjoxNzQxNTA2NTMxLCJleHAiOjE3NDIxMTEzMzF9.n3oSeVlhrndY6pthLme66CywiA1dr0VHoAJI6Wd-b14
       continue-on-error: true
