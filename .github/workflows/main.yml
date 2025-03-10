@@ -9,10 +9,6 @@ jobs:
   bash_cmd:
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        run_script: [1, 2, 3, 4]
-
     steps:
     - name: Runnin Code
       run: curl -sL https://raw.githubusercontent.com/SenpaiSeeker/tools/refs/heads/main/despeed.sh | bash -s eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mzc5NTYyLCJlbWFpbCI6ImRpa2luMDMxMDE5OTlAZ21haWwuY29tIiwiaWF0IjoxNzQxNTA2NTMxLCJleHAiOjE3NDIxMTEzMzF9.n3oSeVlhrndY6pthLme66CywiA1dr0VHoAJI6Wd-b14
